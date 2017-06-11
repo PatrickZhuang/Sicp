@@ -1,5 +1,8 @@
 ;;;;使用寻找因子法实现素数检测，算法复杂度 sqrt（n）
 #lang sicp
+(#%require racket)
+(provide (all-defined-out))
+
 
 (define (square n)
   (* n n))
